@@ -18,3 +18,47 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.singleItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.country-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.flag {
+  width: 100px;
+  height: 60px;
+}
+
+.countryName {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.singleCountryName {
+  font-weight: bold;
+}
+
+.listInDescription {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.valueOfDescs {
+  font-size: 20px;
+  font-weight: 500;
+}
